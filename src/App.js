@@ -4,7 +4,7 @@ import BusinessCard from "./components/business_card/BusinessCard";
 import MainContent from "./components/MainContent"
 import AirBnb from "./components/airbnb/AirBnb";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 // project below
 
