@@ -9,7 +9,7 @@ export default function BusinessCard(){
     <div className="main-content">
       <div className="card-container">
         <div className="main-content-profile">
-          <img src={require("../images/profile.jpg")} alt="" />
+          <img src={require("../../images/profile.jpg")} alt="" />
         </div>
         <Info />
         <About />

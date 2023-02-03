@@ -71,7 +71,7 @@ html, body{
   letter-spacing: -0.05rem;
 }
 
-ul > li {
+.main-content > ul > li {
   font-size: 28px;
   padding-block: 0.5rem;
 }

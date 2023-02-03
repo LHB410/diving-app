@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../images/react-logo.png";
-import { Routes, Route, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return(
@@ -11,6 +11,7 @@ export default function Header() {
         <ul className="nav-items">
           <li><NavLink to="/facts">React Projects</NavLink></li>
           <li><NavLink to="/businesscard">Business Card</NavLink></li>
+          <li><NavLink to="/airbnb">Air BnB Experiences</NavLink></li>
         </ul>
       </nav>
     </header>
