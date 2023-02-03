@@ -1,15 +1,16 @@
 import React from "react";
 import logo from "../images/react-logo.png";
+import { Routes, Route, NavLink } from "react-router-dom";
 
 export default function Header() {
   return(
     <header>
       <nav className="navbar">
         <img className="nav-logo" src={logo} width="40" alt="react logo" />
+        <h1 className="nav-title">React Facts</h1>
         <ul className="nav-items">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><NavLink to="/facts">React Projects</NavLink></li>
+          <li><NavLink to="/businesscard">Business Card</NavLink></li>
         </ul>
       </nav>
     </header>

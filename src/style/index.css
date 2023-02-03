@@ -1,3 +1,5 @@
+@import "business_card";
+
 html, body{
   font-family: 'Courier New', Courier, monospace;
   height: 100vh;
@@ -16,18 +18,26 @@ html, body{
   padding: 1rem;
   background-color: #212128;
   color: white;
+  height: 90px;
 }
 
 .nav-items{
   list-style: none;
   display: flex;
   gap: 2rem;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .navbar > .nav-logo{
   width: 60px;
   height: auto;
+}
+
+.nav-title{
+  margin-right: auto;
+  margin-left: 0.5rem;
+  color: #62d4fa;
+  font-size: 30px;
 }
 
 /* FOOTER */
@@ -58,8 +68,15 @@ html, body{
 
 .main-content > h1{
   font-size: 60px;
+  letter-spacing: -0.05rem;
 }
 
-ol > li {
-  font-size: 30px;
+ul > li {
+  font-size: 28px;
+  padding-block: 0.5rem;
+}
+
+ul > li::marker{
+  color: #62d4fa;
+  font-size: 1.9rem;
 }
