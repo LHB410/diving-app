@@ -9,7 +9,12 @@ export default function() {
     <div className="main-content-airbnb">
       <Navbar/>
       <Hero />
-      <Card />
+      <Card
+        img="../../images/athlete"
+        rating="5.0"
+        numberOfRatings="6"
+        country="USA"
+      />
     </div>
 
   )
