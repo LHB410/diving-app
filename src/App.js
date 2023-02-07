@@ -4,6 +4,7 @@ import BusinessCard from "./components/business_card/BusinessCard";
 import MainContent from "./components/MainContent"
 import AirBnb from "./components/airbnb/AirBnb";
 import Footer from "./components/Footer";
+import JokesList from "./components/jokes/JokesList"
 import { Routes, Route } from "react-router-dom";
 
 // project below
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/facts" element={<MainContent />}></Route>
           <Route path="/businesscard" element={<BusinessCard />} />
           <Route path="/airbnb" element={<AirBnb />}></Route>
+          <Route path="/jokes" element={<JokesList />}></Route>
         </Routes>
       </div>
   );

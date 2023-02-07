@@ -10,10 +10,12 @@ export default function() {
       <Navbar/>
       <Hero />
       <Card
-        img="../../images/athlete"
+        img="athlete.png"
         rating="5.0"
-        numberOfRatings="6"
+        numberOfRatings={6}
         country="USA"
+        title="Life Lessons with Katie Zaferes"
+        price={136}
       />
     </div>
 

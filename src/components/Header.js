@@ -12,6 +12,7 @@ export default function Header() {
           <li><NavLink to="/facts">React Projects</NavLink></li>
           <li><NavLink to="/businesscard">Business Card</NavLink></li>
           <li><NavLink to="/airbnb">Air BnB Experiences</NavLink></li>
+          <li><NavLink to="/jokes">Jokes</NavLink></li>
         </ul>
       </nav>
     </header>
